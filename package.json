@@ -5,8 +5,9 @@
     "socket.io": "^4.7.5"
   },
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "start": "node server.js",
+    "build": "npm install"
   },
   "name": "tic-tac-toe",
   "version": "1.0.0",
