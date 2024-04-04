@@ -6,7 +6,7 @@ const app = createServer();
 const port = 3500;
 
 const io = new Server(app, {
-    cors: ["http://localhost:5173/", "https://imgovindjee.github.io/Tic-Tac-Toe-/"]
+    cors: ["http://localhost:5173/", "https://imgovindjee.github.io/Tic-Tac-Toe-/", "https://incredible-marshmallow-9ff2fe.netlify.app/"]
 });
 
 
